@@ -1,4 +1,4 @@
-package com.pahimar.letsmodreboot.utility;
+package com.lordmortus.rebuildit.utility;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;

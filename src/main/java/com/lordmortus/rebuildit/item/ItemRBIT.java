@@ -1,6 +1,6 @@
 package com.lordmortus.rebuildit.item;
 
-import com.lordmortus.creativetab.CreativeTabRBIT;
+import com.lordmortus.rebuildit.creativetab.CreativeTabRBIT;
 import com.lordmortus.rebuildit.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

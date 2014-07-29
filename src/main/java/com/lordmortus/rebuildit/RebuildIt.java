@@ -3,6 +3,7 @@ package com.lordmortus.rebuildit;
 import com.lordmortus.rebuildit.handlers.ConfigurationHandler;
 import com.lordmortus.rebuildit.init.ModBlocks;
 import com.lordmortus.rebuildit.init.ModItems;
+import com.lordmortus.rebuildit.init.Recipes;
 import com.lordmortus.rebuildit.proxy.IProxy;
 import com.lordmortus.rebuildit.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -34,7 +35,7 @@ public class RebuildIt
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
-
+        Recipes.init();
     }
 
     @Mod.EventHandler
