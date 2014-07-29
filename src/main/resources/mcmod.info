@@ -1,0 +1,21 @@
+[
+{
+  "modid": "RebuildIt",
+  "name": "Rebuild It",
+  "description": "Re-create items from their sub components",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Lord Mortus"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
