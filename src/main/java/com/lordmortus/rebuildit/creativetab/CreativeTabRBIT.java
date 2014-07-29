@@ -1,4 +1,4 @@
-package com.lordmortus.creativetab;
+package com.lordmortus.rebuildit.creativetab;
 
 import com.lordmortus.rebuildit.init.ModItems;
 import com.lordmortus.rebuildit.reference.Reference;
@@ -10,7 +10,7 @@ import net.minecraft.item.Item;
  */
 public class CreativeTabRBIT
 {
-    public static final CreativeTabs RBIT_TAB = new CreativeTabs(Reference.MOD_ID)
+    public static final CreativeTabs RBIT_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase())
     {
         @Override
         public Item getTabIconItem()
@@ -18,10 +18,5 @@ public class CreativeTabRBIT
             return ModItems.glue;
         }
 
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            return "Rebuild It";
-        }
     };
 }
